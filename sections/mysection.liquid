@@ -1,0 +1,34 @@
+{% stylesheet %}
+    
+{% endstylesheet %}
+
+<div>
+<p> {{ section.settings.test_text }}
+</p>
+</div>  
+{% schema %}
+    {
+        "name": "Valerii",
+        "settings": [
+            {
+                "type": "text",
+                "id": "test_text",
+                "label": "Valerii found",
+                "default": "Quick links"
+              },
+              {
+                "type": "textarea",
+                "id": "",
+                "label": "",
+                "default": "",
+                "info": "",
+                "placeholder": ""
+              }
+        
+        ], 
+        "presets": [
+            {
+                "name": "Valerii"
+            }]
+    }
+{% endschema %}
