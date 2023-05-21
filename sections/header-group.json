@@ -37,10 +37,17 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "1fbbba46-f372-40fc-8312-8c0f39610216": {
+      "type": "mysection",
+      "settings": {
+        "test_text": "Quick links dfgd"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "1fbbba46-f372-40fc-8312-8c0f39610216"
   ]
 }
